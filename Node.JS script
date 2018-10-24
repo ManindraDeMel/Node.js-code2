@@ -1,0 +1,5 @@
+var http = require('http');
+
+http.createServer(function (req, res) {
+    res.end('Mani_Ninjz Loves Contributing to ScoreLab');
+}).listen(8080);
